@@ -1,0 +1,200 @@
+@media screen and (max-width:1024px){
+  h2{
+    font-size:32px;
+  }
+
+  header a{
+    font-size:14px;
+  }
+
+  .main-img h1{
+    font-size:64px;
+  }
+
+  .main-img p{
+    font-size:22px;
+  }
+
+  .about-wrapper img{
+    width:220px;
+    height:300px;
+  }
+
+  .about-right p{
+    font-size:15px;
+  }
+
+  .icon p{
+    font-size:22px;
+  }
+
+  .text-contents{
+    font-size:16px;
+  }
+
+  .service-contents h3{
+    font-size:22px;
+  }
+
+  .service-contents p{
+    font-size:16px;
+  }
+
+  .service-left img{
+    width:100%;
+  }
+
+  .works-wrapper p{
+    font-size:16px;
+  }
+
+  .form input,textarea{
+    font-size:16px;
+  }
+  .form button{
+    font-size:14px;
+  }
+}
+
+@media screen and (max-width:896px){
+  .introduction{
+    flex-direction: column;
+  }
+
+  h2{
+    font-size:40px;
+  }
+
+  .about-left{
+    width:50%;
+    margin:0 auto;
+  }
+
+  .about-right{
+    width:50%;
+    margin:0 auto;
+  }
+
+  .about-wrapper{
+    padding:50px 0 0 0;
+  }
+
+  .skill-wrapper{
+    margin-top:0;
+  }
+
+  .skills{
+    flex-direction:column;
+    margin:0 auto;
+  }
+
+  .skill{
+    margin:0 auto;
+    width:340px;
+  }
+
+  .icon p{
+    font-size:26px;
+  }
+
+  .text-contents{
+    font-size:20px;
+  }
+
+  .service{
+    flex-direction: column;
+    margin:0 auto;
+    padding:0;
+  }
+
+  .service-left,.service-contents{
+    margin:0 auto;
+  }
+
+  .service-left{
+    width:100%;
+  }
+
+  .service-contents{
+    width:100%;
+    padding:30px;
+  }
+
+  .service-contents h3{
+    font-size:26px;
+  }
+
+  .service-contents p{
+    font-size:20px;
+  }
+
+  .works{
+    flex-direction:column;
+    margin:0 auto;
+  }
+
+  .work{
+    margin:0 auto;
+    width:100%;
+  }
+
+  .fadein p{
+    font-size:26px;
+  }
+
+
+}
+
+@media screen and (max-width:768px){
+  .header-right{
+    display:none;
+  }
+
+  .menu {
+    display:block;
+  }
+
+  .menu a {
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+      color: #000;
+      line-height:1;
+  }
+
+  label {
+      display: block;
+      margin: 0 0 4px 0;
+      padding : 15px;
+      line-height: 1;
+      color :black;
+      cursor :pointer;
+      font-size:22px;
+  }
+
+  .menu input {
+      display: none;
+  }
+
+  .menu ul {
+      margin: 0;
+      padding: 0;
+      background :#f4f4f4;
+      list-style: none;
+  }
+
+  .menu li {
+      height: 0;
+      overflow: hidden;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+  }
+
+  #menu_bar01:checked ~ #links01 li{
+      height: 54px;
+      opacity: 1;
+  }
+}
